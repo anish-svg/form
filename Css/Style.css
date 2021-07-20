@@ -1,0 +1,174 @@
+#h {
+    margin-bottom: 3px;
+}
+
+#format {
+    margin: 3%;
+    padding: 2%;
+    border-style: groove;
+    background-color: lightgrey;
+}
+
+#heading {
+    padding-top: 2%;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+
+/* positon of positoin code */
+
+#postion {
+    padding-left: 0.3%;
+    padding-top: 1%;
+    flex-direction: inherit;
+}
+
+#p {
+    font-weight: bold;
+}
+
+#su {
+    color: red;
+    text-decoration-line: none;
+}
+
+#p2 {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#img {
+    height: 25vh;
+    width: 30vh;
+    border: 2px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.form-select {
+    justify-content: end;
+    justify-self: left;
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+
+/* divide ito two part  */
+
+.row {
+    padding-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    /* background-color:yellow; */
+}
+
+.column {
+    flex: 60%;
+}
+
+#p1 {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+#p2 {
+    margin-left: 3.4px;
+    margin-right: 20px;
+}
+
+#p3 {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#p4 {
+    font-weight: bold;
+}
+
+.card-body {
+    margin: 0;
+    padding-left: 1%;
+}
+
+#ad {
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+
+/* Proof anf Addresh */
+
+#text1 {
+    font-weight: bold;
+    width: 123px;
+}
+
+.Add {
+    height: 23vh;
+}
+
+#ree {
+    font-weight: bold;
+}
+
+#mai {
+    background-color: whitesmoke;
+    border: whitesmoke;
+    border-radius: 2px;
+}
+
+#sta {
+    font-weight: bold;
+}
+
+#accad {
+    font-weight: bold;
+    margin-left: 17px;
+}
+
+#no {
+    font-weight: normal;
+}
+
+#qua {
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+}
+
+#in {
+    border: 2px solid lightgrey;
+}
+
+#alig {
+    border: 2px solid lightgrey;
+    text-align: center;
+    text-align: center;
+}
+
+#para {
+    font-weight: bold;
+}
+
+#pay {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.terms {
+    padding-top: 40px;
+}
+
+#para1 {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#btn1 {
+    width: 80%;
+}
+
+#foot {
+    margin-left: 80px;
+}

@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/Style.css">
+    <title>Application</title>
+</head>
+
+<body>
+    <section id="format">
+        <!-- Heading Part -->
+        <h3 id="heading">Application for the Post Of The Project Enginner</h3>
+
+
+        <div class="mb-3 row">
+            <label class="col-sm-2 col-form-label" id="p">1. Position Code (Select one):<sup id="su">*</sup></label>
+            <div class="col-sm-10">
+                <select class="form-select">
+                    <option selected> select</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+
+
+        <hr style="max-height: 2px;">
+
+        <!-- Form Part Start -->
+        <form>
+            <!-- 1 to 9  -->
+            <div class="row">
+                <div class="col-sm-6">
+
+
+                    <label class="col-sm-2" id="p1">2. Name <sup id="su">*</sup></label>
+                    <input type="text" class="col-sm-8">
+                    <br>
+                    <label class="col-sm-2" id="p1">3. Father's Name <sup id="su">*</sup></label>
+                    <input type="text" class="col-sm-8">
+                    <br>
+                    <label class="col-sm-2 " id="p1">4. Date of Birth <sup id="su">*</sup></label>
+                    <input type="date" id="p2" class="col-sm-5">
+                    <label class="col-sm-1 " id="p4"> Age </label>
+                    <input type="number" max="36" min="18" class="col-sm-1">
+                    <br>
+                    <label class="col-sm-2 col-form-label" id="p1">5. Gender <sup id="su">*</sup></label>
+                    <select class="col-sm-8">
+                        <option selected> Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Trangender</option>
+                    </select>
+                    <br>
+                    <label class="col-sm-3 col-form-label" id="p3">6. Nationality <sup id="su">*</sup></label>
+                    <input type="text" class="col-sm-8">
+                    <br>
+
+                    <label class="col-sm-2 col-form-label" id="p1">7. Maritial Status <sup id="su">*</sup></label>
+                    <select class="col-sm-8 ">
+                        <option selected>Single</option>
+                        <option>Married</option>
+                        <option>widow</option>
+                    </select>
+                    <br>
+
+                    <label class="col-sm-4 col-form-label" id="p1">8. Wheter Belong to (select one):
+                        <sup id="su">*</sup></label>
+                    <input type="checkbox"> SC
+                    <input type="checkbox"> ST
+                    <input type="checkbox"> OBC
+                    <input type="checkbox"> PWD
+                    <input type="checkbox"> General
+                    <br>
+
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <label id="p2">Upload Your Photo <sup id="su">*</sup></label>
+                            <div>
+                                <img class="rounded float-left " id="img">
+                            </div>
+                            <div>
+                                <input type="file">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+
+            <hr>
+
+            <!-- Pan Card Description -->
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label" id="p">9.Proof Of Identity<sup id="su">*</sup></label>
+                <div class="col-sm-5">
+                    <select class="form-select" id="ad">
+
+                        <option selected>Adhaar Card</option>
+                        <option>Pan Card</option>
+                        <option>Voter Id</option>
+                        <option>Driving Lisence</option>
+
+                    </select>
+                </div>
+                <div class="col-sm-5">
+                    <input type="text" placeholder="Write your Adhaar/Pan" id="ad">
+
+                </div>
+            </div>
+
+
+            <!-- Adresss And State -->
+
+
+            <!-- Working Information -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label class="col-md-2" id="text1">10. Address for
+                                Correspondence: <sup id="su">*</sup></label>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <textarea class="col-md-10 offset-md-4 my-md-3" name="" id="textar" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="col-md-5" id="sta">Select State <sup id="su">*</sup></label>
+                            <br>
+                            <select class="col-md-9 my-md-2">
+
+                                <option selected>State</option>
+                                <option>Ghzipur</option>
+                                <option>Mirzapur</option>
+                                <option>Varansi</option>
+
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="col-md-6 " id="sta">Select City/Town<sup id="su">*</sup></label>
+                            <br>
+                            <select class="col-md-9 my-md-2">
+
+                                <option selected>City</option>
+                                <option>Ghzipur</option>
+                                <option>Mirzapur</option>
+                                <option>Varansi</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2" id="text1">Pincode<sup id="su">*</sup></label>
+                        <input class="col-md-8 offset-md-0" type="text">
+                    </div>
+
+
+                </div>
+
+                <!-- Mobile Information && Email  -->
+                <div class="col-md-6">
+                    <p>Phone Numbers (With STD Codes)</p>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="col-md-3" id="ree">Office</label>
+
+                            <label class="col-md-3" id="ree">Residance</label>
+                            <label class="col-md-4" id="ree">Mobile <sup id="su">*</sup></label>
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <input class="col-md-2 " type="text" id="mobile">
+                            <input class="col-md-3 mx-4" type="text" id="mobile">
+                            <input class="col-md-3" type="text" id="mobile">
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="mail">
+                        <div>
+
+                            <label class="col-sm-3 col-form-label" id="p1">Primar email:<sup id="su">*</sup></label>
+                            <input type="text" class="col-sm-7" placeholder="enter email" id="mai">
+                            <br>
+                        </div>
+
+                        <div>
+                            <label class="col-sm-3 col-form-label" id="p1">Secondary Email:</label>
+                            <input type="email" class="col-sm-7" placeholder="enter email" id="mai">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <hr id="h">
+            <!-- Accademic & Workin Experience heading  -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="col-md-8 my-3" id="p">11. Are You Currently Working With C-DAC?<sup
+                                    id="su">*</sup></label>
+
+                            <label class="col-md-10" id="p">12. Are You Employed in any Govt./ semi-Govt./ PSU/
+                                Autonomus Bodies?<sup id="su">*</sup>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <select class="col-md-6 my-md-3 ">
+                                <option selected>NO</option>
+                                <option>No</option>
+                                <option>yes</option>
+                            </select>
+                            <select class="col-md-6 ">
+                                <option selected>Goverment</option>
+                                <option>Ghzipur</option>
+                                <option>Mirzapur</option>
+                                <option>Varansi</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>If <span style="font-weight: bold;">"Yes"</span> the application Should Be forwarded through paper channel Or NOC to be produced at the time of interview.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label class="col-md-9 my-3" id="p">13. Have You ever Been interview for recruitment in
+                                    any post in C-DAC earlier<sup id="su">*</sup></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="col-md-6 my-md-3 offset-md-0">
+                                    <option selected>NO</option>
+                                    <option>No</option>
+                                    <option>yes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr id="h">
+            <br>
+            <p id="accad">14. Accademic & Professional Quallification <span id="no">(Being the latest Graduation/PG/PG
+                    Diploma(If any)/Phd)</span></p>
+
+
+            <!-- Accademic Details -->
+            <table class="table" style="border:2px solid lightgray;">
+                <thead>
+                    <tr style="border: 1px solid lightgrey">
+
+                        <th scope="col" id="alig">Qualification <sup id="su">*</sup></th>
+                        <th scope="col" id="alig">Name Of Institute/ Board/ University <sup id="su">*</sup></th>
+                        <th scope="col" id="alig">Specilization <sup id="su">*</sup></th>
+                        <th scope="col" id="alig">Year Of Passing <sup id="su">*</sup></th>
+                        <th scope="col" id="alig">% Marks (Aggregate)<sup id="su">*</sup></th>
+                        <th scope="col" id="alig">Class/Division/Rank Distinction <sup id="su">*</sup></th>
+                        <th scope="col" id="alig"><a class="btn btn-primary" role="button">Add Row</a></th>
+                    </tr>
+                </thead>
+                <tbody style="border:2px solid lightgrey">
+
+                    <tr class="my-2">
+                        <th scope="row" style="border:2px solid lightgrey;"><select class="col-md-12 ">
+
+                                <option selected></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+
+                            </select></th>
+                        <td id="in"><input type="text"></td>
+                        <td id="in"><input type="text"></td>
+                        <td id="in"><input type="text"></td>
+                        <td id="in"><input type="text"></td>
+                        <td id="in"><input type="text"></td>
+
+                        <td><a class="btn btn-danger" role="button">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Work Experience -->
+            <div class="table-responsive">
+                <table class="table " style="border:2px solid lightgray;width: auto;">
+                    <thead>
+                        <tr style="border: 1px solid lightgrey">
+
+                            <th scope="col" id="alig">Name of Organization</th>
+                            <th scope="col" id="alig">Designation & Grade </th>
+                            <th scope="col" id="alig">Total Salary Drawn</th>
+                            <th scope="col" id="alig">Form (Mon-YYY)</th>
+                            <th scope="col" id="alig">To (Mon-YYY)</th>
+                            <th scope="col" id="alig">Nature Of Work relavent for applied job </th>
+                            <th scope="col" id="alig">Add Row</th>
+                        </tr>
+                    </thead>
+                    <tbody style="border:2px solid lightgrey">
+
+                        <tr class="my-2">
+                            <th scope="row" style="border:2px solid lightgrey;">
+                                <input type="text">
+                                <td id="in"><input type="text"></td>
+                                <td id="in"><input type="text"></td>
+                                <td id="in" style=" display: flex;"> <select class="form-select" style="width: min-content;">
+
+                            <option selected>Select</option>
+                            <option>Pan Card</option>
+                            <option>Voter Id</option>
+                            <option>Driving Lisence</option>
+    
+                        </select>
+                                    <input type="text" style="margin-left: 20px;">
+                                </td>
+                                <td id="in" style="display:inline-flexbox;"><select class="form-select" style="width: min-content;">
+
+                            <option selected>Select</option>
+                            <option>Pan Card</option>
+                            <option>Voter Id</option>
+                            <option>Driving Lisence</option>
+    
+                        </select>
+                                    <input type="text">
+
+                                </td>
+                                <td id="in" style="width: 30%;"><textarea name="" id="" cols="5" rows="3"></textarea></td>
+
+                                <td><a class="btn btn-primary" role="button">Add Row</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <hr id="h">
+            <br>
+            <!-- 22 to 23 -->
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <p id="para">16. Any Short Term Certificate courses/traning Undergone </p>
+
+                </div>
+                <div class="col-sm-6">
+
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                    <p>if so,list the Details</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">17. GATE/ UGC-CSIR Examination etc.Qualified Any </p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                    <p>(Discipine/Branch,year of passing,%)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">18. a) P.G (M.E/M.tech) Project tittle </p>
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="col-sm-10 ">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <p id="para" style="padding-left: 22px;">b) P.G project synopsis/ Abstract (Max.250 Words)</p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">19. a) Ph.D Thesis Title </p>
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="col-sm-10 ">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <p id="para" style="padding-left: 22px;">b) Ph.D Thesis synopsis/ Abstract (Max.250 Words)</p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">20. Workshop/ Seminars / Confrences Atended </p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">21. Paper Published/ presneted /technical talks delivered </p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">22. Any Additional info that may not have been covered </p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="para">23. Refrences(Name,Occupation,Addr,Email,Moblie)# <sup id="su">*</sup></p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="col-sm-10 " name="" id="textar" rows="4"></textarea>
+                    <p>At least 2 refrences</p>
+                </div>
+            </div>
+            <br>
+            <hr id="h">
+            <br>
+
+            <!-- Fees Details -->
+            <p id="para">Application Fees Details</p>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body" style="border: 2px solid black;">
+                            <label class="col-sm-6 my-3" id="pay">Mode Of Payment</label>
+                            <input type="text">
+                            <label class="col-sm-6  my-3" id="pay">Bank Of Branch</label>
+                            <input type="text">
+                            <label class="col-sm-6  my-3" id="pay">Transaction Id<sup id="su"> *</sup></label>
+                            <input type="text">
+                            <label class="col-sm-6  my-3" id="pay">Transaction Date <sup id="su">*</sup></label>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <label id="p2">Upload Yours Payment<sup id="su">*</sup></label>
+                            <div>
+                                <img class="rounded float-left " id="img">
+                            </div>
+                            <div>
+                                <input type="file">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <br>
+            <hr id="h">
+            <br>
+            <p style="font-weight: bold;">Upload Your CV <span style="font-weight: normal;">File:name[your_name_CV_pdf]<sup id="su">*</sup></span></p>
+            <input type="file">
+
+            <p id=para>
+                Decleration
+            </p>
+            <div>
+                <p id="para">
+                    1. I certifiy that all information provided in this application is true,complete and correct to the best of my knowledge and belief.
+                </p>
+                <p id="para">I understand that any false information or omission of information may disqualif me from concedration for employment</p>
+                <p id="para">
+                    <pre id="para">  and</pre>
+                </p>
+                <p>
+                    <pre id="para">   may result in dismissal from the job,if discovered at alater date.</pre>
+                </p>
+                <p id="para">2. i have read and and understood the above declaration for signing this.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label id="para" class="col-sm-2">Place <sup id="su">*</sup> </label>
+                    <input type="text">
+                </div>
+                <div class="col-sm-6">
+                    <label id="para" class="col-sm-2">Date <sup id="su">*</sup> </label>
+                    <input type="text">
+                </div>
+                <br>
+                <div class="terms">
+                    <input type="checkbox"> </input>
+                    <label id="para1">I accept the Term and Conditions </label>
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col"><button type="button" class="btn btn-success" id="btn1">Submit Form</button></div>
+                <div class="col"><button type="button" class="btn btn-primary" id="btn1">Save Draft</button></div>
+                <div class="col"><button type="button" class="btn btn-warning" id="btn1">Clear Form</button></div>
+                <div class="col"><button type="button" class="btn btn-danger" id="btn1">Back</button></div>
+            </div>
+        </form>
+
+
+    </section>
+    <div id="foot">
+        <footer>
+            <span>&copy</span>
+            <label>2020 C-DAC.All rights rserved Website owened and maintain by: Center For Developement of Advance
+                Computing (C-DAC)</label>
+        </footer>
+        <hr>
+
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
